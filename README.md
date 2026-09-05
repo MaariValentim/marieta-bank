@@ -131,3 +131,4 @@ Algumas funcionalidades que podem ser implementadas futuramente:
 ### Projeto desenvolvido para fins de estudo
 
 **Marieta Bank** — meu primeiro projeto de sistema bancário utilizando Node.js.
+# marienta-bank
