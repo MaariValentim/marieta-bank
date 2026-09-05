@@ -1,47 +1,48 @@
-# Marieta Bank
+#  Marieta Bank
 
-Um sistema bancário simples desenvolvido em **Node.js**, executado diretamente pelo terminal.
+Sistema bancário desenvolvido em **Node.js**, executado diretamente pelo terminal.
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de JavaScript e Node.js, como funções assíncronas, manipulação de arquivos, módulos, entrada de dados pelo terminal e lógica de programação.
+O projeto foi desenvolvido como parte dos meus estudos em **JavaScript e Node.js**, com o objetivo de praticar conceitos fundamentais de desenvolvimento backend, manipulação de arquivos, persistência de dados e interação com o usuário.
 
-## Funcionalidades
+##  Funcionalidades
 
-O sistema possui um menu interativo com as seguintes opções:
+O Marieta Bank possui um menu interativo com as seguintes operações:
 
-* Criar uma conta
+* Criar conta
 * Consultar saldo
 * Realizar depósito
 * Realizar saque
-* Sair do sistema
+* Encerrar o sistema
 
 As contas são armazenadas localmente em arquivos `.json`, utilizando o módulo nativo `fs` do Node.js.
 
-## Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 * **Node.js**
 * **JavaScript**
 * **@inquirer/prompts**
 * **Chalk**
 * **File System (fs)**
+* **JSON**
 
-## Conceitos praticados
+##  Conceitos praticados
 
-Durante o desenvolvimento foram praticados conceitos como:
+Durante o desenvolvimento do projeto foram praticados conceitos importantes de JavaScript e Node.js, como:
 
 * Funções
-* Funções assíncronas (`async/await`)
+* Funções assíncronas
+* `async/await`
 * Condicionais
 * Validação de dados
-* Manipulação de strings
 * Conversão de valores
 * Módulos do Node.js
 * Manipulação de arquivos com `fs`
 * Leitura e escrita de arquivos JSON
-* Estruturação de dados
-* Tratamento de entradas do usuário
+* Persistência de dados
 * Uso de pacotes externos com npm
+* Interação com o terminal
 
-## 📂 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 marieta-bank/
@@ -55,7 +56,7 @@ marieta-bank/
 
 A pasta `accounts/` é criada automaticamente pelo sistema quando uma nova conta é cadastrada.
 
-Cada conta é armazenada em um arquivo JSON contendo o saldo da conta.
+Os dados das contas são armazenados em arquivos JSON.
 
 Exemplo:
 
@@ -65,12 +66,12 @@ Exemplo:
 }
 ```
 
-## ⚙️ Como executar
+##  Como executar
 
 ### 1. Clone o repositório
 
 ```bash
-git clone SEU_LINK_DO_REPOSITORIO
+git clone git@github.com:MaariValentim/marieta-bank.git
 ```
 
 ### 2. Acesse a pasta
@@ -88,12 +89,12 @@ npm install
 ### 4. Execute o projeto
 
 ```bash
-node index.js
+npm start
 ```
 
-## Exemplo de utilização
+##  Exemplo de utilização
 
-Ao iniciar o sistema, o usuário verá um menu semelhante a:
+Ao iniciar o sistema, o usuário encontrará um menu interativo:
 
 ```text
 Iniciamos o Marieta Bank!
@@ -105,16 +106,16 @@ Iniciamos o Marieta Bank!
   Sacar
   Sair
 ```
-Após criar uma conta, é possível consultar o saldo, realizar depósitos e efetuar saques.
 
-## Objetivo do projeto
+Após criar uma conta, o usuário pode consultar o saldo, realizar depósitos e efetuar saques.
 
-Este projeto faz parte dos meus estudos em **JavaScript e Node.js**, com foco no desenvolvimento backend.
-A ideia foi construir uma aplicação simples utilizando recursos fundamentais do Node.js, sem banco de dados externo, utilizando arquivos JSON para persistência das informações.
+## Objetivo
 
-##  Próximas melhorias
+Este projeto representa uma etapa dos meus estudos em **JavaScript e Node.js**, com foco no desenvolvimento backend.
 
-Algumas funcionalidades que podem ser implementadas futuramente:
+A aplicação foi construída utilizando arquivos JSON como forma de persistência, permitindo praticar conceitos fundamentais antes da evolução para soluções envolvendo banco de dados e APIs.
+
+## Próximas melhorias
 
 * [ ] Criar histórico de transações
 * [ ] Adicionar data e hora às operações
@@ -122,14 +123,13 @@ Algumas funcionalidades que podem ser implementadas futuramente:
 * [ ] Adicionar autenticação
 * [ ] Melhorar as validações
 * [ ] Separar o projeto em módulos
-* [ ] Utilizar um banco de dados
+* [ ] Utilizar banco de dados
 * [ ] Criar uma API REST
 * [ ] Adicionar testes automatizados
+* [ ] Documentar a API
 
 ---
 
-### Projeto desenvolvido para fins de estudo
+## Sobre o projeto
 
-**Marieta Bank** — meu primeiro projeto de sistema bancário utilizando Node.js.
-# marienta-bank
-# marieta-bank
+Projeto desenvolvido por **Mariana Valentim** como parte dos meus estudos em desenvolvimento backend com JavaScript e Node.js.
